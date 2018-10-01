@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background-image :url(http://pilerats.com/assets/Uploads/the-chemical-brothers-under-neon-lights.png) ;
+	background-image :url("http://pilerats.com/assets/Uploads/the-chemical-brothers-under-neon-lights.png");
   font: 18px/1.4 $helvetica;
   color: #99ccff;
 }
@@ -114,6 +114,7 @@ img {
 .gmnoprint img {
   max-width: none;
 }
+
 table {
 border-collapse: collapse;
 width: 100%;
@@ -122,12 +123,12 @@ width: 100%;
 table, th, td {
 border: 1px solid white;
 background-color:#66ff33;
-
 }
 
 td {
 vertical-align: middle; 
 padding: 10px;
+	#99ccff
 }	
 
 th {
